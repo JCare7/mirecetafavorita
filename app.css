@@ -1,0 +1,103 @@
+body{
+    font-family: Noto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.main-container {
+    background: url(img/incredientes.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.p-articles {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.p-article__image img {
+    width: 100%;
+    object-fit: cover;
+}
+    
+.p-article__title h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.3rem 0;
+    font-family: lobster;
+}
+
+.p-article__receta h4 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+.p-article__receta ul {
+    list-style-type: square;
+    padding-left: 2rem;
+    text-align: left;
+}
+
+.p-article__receta ol{
+    padding-left: 2rem; text-align: left;
+}
+
+.p-article__receta ul li,
+ol li {
+    font-size: .9rem;
+    line-height: 2;
+}
+
+.p-article__list{
+    background: rgba(255,255,255,0.60);
+}
+
+.p-article-info i{
+    font-size: 1.25rem;
+    padding: 0 .6rem;
+}
+
+.p-article-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos pagina Sobre mi */
+.contact{
+    margin: auto;
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.contact__image img{
+    display: block;
+    width: 200px;
+}
+
+.contact-info{
+    width: 1000px;
+    background: white;
+    padding: 1.5rem;
+}
+
+.contact-info h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Lobster, sans-serif;
+}
+
+.contact-info p{
+    line-height: 1.5;
+    text-align: justify;
+}
